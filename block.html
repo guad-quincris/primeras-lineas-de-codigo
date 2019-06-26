@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>block de pruebas</title>
+
+    <dl>
+        <dt>Carbohidratos</dt>
+            <dd>Glúcidos, carbohidratos, hidratos de carbono o sacáridos son moléculas compuestas
+         por carbono, hidrógeno y oxígeno, cuyas funciones en los seres vivos son el prestar energía
+         inmediata y estructural.</dd>
+        <dt>Grasas</dt>
+           <pre>En bioquímica, grasa es un término genérico para designar varias clases de lípidos,
+                aunque generalmente se refiere a los acilglicéridos, ésteres en los que uno, dos o tres ácidos
+                grasos se unen a una molécula de gli</pre> <dd>En bioquímica, grasa es un término genérico para designar varias clases de lípidos,
+         aunque generalmente se refiere a los acilglicéridos, ésteres en los que uno, dos o tres ácidos
+         grasos se unen a una molécula de glicerina, formando monoglicéridos,
+         diglicéridos y triglicéridos respectivamente.</dt>
+        </dl> 
+
+        <table border="3">
+            <!-- ... -->
+            <caption><strong>tablas melas</strong> </caption>
+            <tr>
+              <td rowspan="3">Datos adicionales</td> <!-- Abarca 3 celdas -->
+            </tr>
+            <!-- <tr>
+                <!-- <th>Título columna 1</th>   Celda de cabecera de la columna 1 -->
+                <!-- <th>Título columna 2</th>   Celda de cabecera de la columna 2 -->
+                <!-- <th>Título columna 3</th>   Celda de cabecera de la columna 3 -->
+              </tr> -->
+              <!-- Primera fila -->
+              <tr>
+                <td>Celda 1x1</td>    <!-- Primera celda de la primera fila -->
+                <td>Celda 2x1</td>    <!-- Segunda celda de la primera fila -->
+                <td>Celda 3x1</td>    <!-- Tercera celda de la primera fila -->
+              </tr>
+            <!-- Primera fila -->
+            <tr>
+              <td>Celda 1x1</td>    <!-- Primera celda de la primera fila -->
+              <td>Celda 2x1</td>    <!-- Segunda celda de la primera fila -->
+              <td>Celda 3x1</td>    <!-- Tercera celda de la primera fila -->
+            </tr>
+            <!-- ... -->
+          </table>
+
+        <table>
+            <!-- Cabecera -->
+            <tr>
+              <th>Título columna 1</th>   <!-- Celda de cabecera de la columna 1 -->
+              <th>Título columna 2</th>   <!-- Celda de cabecera de la columna 2 -->
+              <th>Título columna 3</th>   <!-- Celda de cabecera de la columna 3 -->
+            </tr>
+            <!-- Primera fila -->
+            <tr>
+              <td>Celda 1x1</td>    <!-- Primera celda de la primera fila -->
+              <td>Celda 2x1</td>    <!-- Segunda celda de la primera fila -->
+              <td>Celda 3x1</td>    <!-- Tercera celda de la primera fila -->
+            </tr>
+            <!-- Segunda fila -->
+            <tr>
+              <td>Celda 1x2</td>    <!-- Primera celda de la segunda fila -->
+              <td>Celda 2x2</td>    <!-- Segunda celda de la segunda fila -->
+              <td>Celda 3x2</td>    <!-- Tercera celda de la segunda fila -->
+            </tr>
+          </table>
+          <table border="1">
+            <tr>
+              <th>Columna 1</th>
+              <th>Columna 2</th>
+              <th>Columna 3</th>
+            </tr>
+            <tr>
+              <td>Data 1</td>
+              <td>Data 2</td>
+              <td>Data 3</td>
+            </tr>
+            <tr>
+              <td>Data 4</td>
+              <td>Data 5</td>
+              <td>Data 6</td>
+            </tr>
+            <colgroup>
+              <col style="background:red">
+              <col span="2" style="background:yellow">
+            </colgroup>
+          </table>
+          <svg width="100" height="100" style="border: 1px solid black">
+            <circle cx="50" cy="30" r="40" fill="transparent" stroke="black">
+            </circle>
+          </svg>
+          <picture>
+            <source srcset="img.jxr"> <!-- JPEG XR -->
+            <source srcset="img.webp"> <!-- WebP -->
+            <img src="img.jpg" alt="Imagen de prueba"> <!-- Navegador en modo texto -->
+          </picture>
+
+          <hr></hr>
+          <map name="map1"> <area
+            href="cuadrado.html" alt="Cuadrado" shape=rect coords="0,75,100,175">
+         <area href="circulo.html" alt="Círculo" shape=circle coords="175,50,50">
+         <area href="triangulo.html" alt="Triángulo" shape=poly coords="125,250, 225,250, 175,165">
+         </map>
+         
+         <img src="https://www.um.es/docencia/barzana/IMGTEORIA/map-ejemplo.gif"
+            border="0" width="225" height="251" usemap="#map1">
+</head>
+<body>
+        <input type="number" name="nombre" autofocus="autofocus">
+        <form action="#" autocomplete="on">
+                Nombre: <input type="text" name="nombre" autocomplete="on"/>
+                Apellidos: <input type="text" name="apellidos" autocomplete="off" />
+           </form>
+</body>
+</html>
